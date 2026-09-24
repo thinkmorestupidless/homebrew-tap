@@ -7,8 +7,8 @@
 class Ankka < Formula
   desc "Command-line client for ankka, a serverless platform for agentic AI"
   homepage "https://docs.ankka.cloud/"
-  url "https://github.com/thinkmorestupidless/ankka/releases/download/v0.0.0/ankka-cli-0.0.0.zip"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  url "https://github.com/thinkmorestupidless/ankka/releases/download/v0.3.1/ankka-cli-0.3.1.zip"
+  sha256 "0719a6f0d3c0905df7b5f7f5e91a554b0249730b6cd9d78b360229df7c9ba54b"
   license "Apache-2.0"
 
   depends_on "openjdk@21"
