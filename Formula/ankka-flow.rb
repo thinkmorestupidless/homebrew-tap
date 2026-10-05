@@ -29,7 +29,7 @@ class AnkkaFlow < Formula
     end
     on_intel do
       url "https://github.com/thinkmorestupidless/ankka-flow/releases/download/v#{version}/ankka-flow-cli-#{version}-linux-x64.tar.gz"
-      sha256 "5cdb494a3dd3955a96e073fe33718d6429f65b7d2a260985ef61ffb97d990226" # linux-x64
+      sha256 "32ae24e17147592b938a537f539b4676eaacbe2d79bbf752317aa9b659071784" # linux-x64
     end
   end
 
