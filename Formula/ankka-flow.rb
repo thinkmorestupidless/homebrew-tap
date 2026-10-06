@@ -14,23 +14,23 @@ class AnkkaFlow < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/thinkmorestupidless/ankka-flow/releases/download/v0.4.0/ankka-flow-cli-0.4.0-macos-arm64.tar.gz"
-      sha256 "f1eaf35da8e7394eaf0205b1a8360c784ec9f3ba1635fb65bdd256db1a25838c" # macos-arm64
+      url "https://github.com/thinkmorestupidless/ankka-flow/releases/download/v0.4.1/ankka-flow-cli-0.4.1-macos-arm64.tar.gz"
+      sha256 "08efa613dfd529c391a8cfb5f9823ff4c11677ab77159909072aafbd6dc0b768" # macos-arm64
     end
     on_intel do
-      url "https://github.com/thinkmorestupidless/ankka-flow/releases/download/v0.4.0/ankka-flow-cli-0.4.0-macos-x64.tar.gz"
-      sha256 "77c1512065b48a41e520d63df486c042f8546ff2a41247c67fbb68af1ac5fd5f" # macos-x64
+      url "https://github.com/thinkmorestupidless/ankka-flow/releases/download/v0.4.1/ankka-flow-cli-0.4.1-macos-x64.tar.gz"
+      sha256 "d0d1d6d50b3d95e5ee5c62422e79b623f16811a2e049aab304eca53249b5c0dc" # macos-x64
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/thinkmorestupidless/ankka-flow/releases/download/v0.4.0/ankka-flow-cli-0.4.0-linux-arm64.tar.gz"
-      sha256 "5d6069ed26361b157afc806f2b4fe532aa129dda8ecdf88d5f43d772070ffad8" # linux-arm64
+      url "https://github.com/thinkmorestupidless/ankka-flow/releases/download/v0.4.1/ankka-flow-cli-0.4.1-linux-arm64.tar.gz"
+      sha256 "db0a1f9a7706e36bcd35e3c25f1c3ae46bebd70459b4c18d74e820600cda4099" # linux-arm64
     end
     on_intel do
-      url "https://github.com/thinkmorestupidless/ankka-flow/releases/download/v0.4.0/ankka-flow-cli-0.4.0-linux-x64.tar.gz"
-      sha256 "6bd05a0f73cbbc3c36621ea58bfee759625a0e988c1a5a25c7d65de07e806c62" # linux-x64
+      url "https://github.com/thinkmorestupidless/ankka-flow/releases/download/v0.4.1/ankka-flow-cli-0.4.1-linux-x64.tar.gz"
+      sha256 "467eea3deb7853c24f998963a351f685f7b385cb3e9c45c63000393545056fb3" # linux-x64
     end
   end
 
