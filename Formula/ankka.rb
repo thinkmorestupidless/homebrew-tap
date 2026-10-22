@@ -8,29 +8,29 @@
 class Ankka < Formula
   desc "Command-line client for ankka, a serverless platform for agentic AI"
   homepage "https://docs.ankka.cloud/"
-  version "0.12.0"
+  version "0.13.0"
   license "Apache-2.0"
 
   # One native executable per platform, needing no JVM.
   on_macos do
     on_arm do
       url "https://github.com/thinkmorestupidless/ankka/releases/download/v#{version}/ankka-cli-#{version}-macos-arm64.tar.gz"
-      sha256 "a33df071c171002d40b6730f9e7b158381b09d004842d8626bc4187bf02ee92a" # macos-arm64
+      sha256 "73bc60eaba8b615d3fe57c6612a23539ac8377a6db9043b07b232678e59a3b0b" # macos-arm64
     end
     on_intel do
       url "https://github.com/thinkmorestupidless/ankka/releases/download/v#{version}/ankka-cli-#{version}-macos-x64.tar.gz"
-      sha256 "a0d8eb02698dd219a78410b5146963fbdf10541289cd5ad7d4a84aef2fee91a4" # macos-x64
+      sha256 "f681a05dae12c02d0bf63dd89ca6dde9f97841558623323250b0492e6b5fbc90" # macos-x64
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/thinkmorestupidless/ankka/releases/download/v#{version}/ankka-cli-#{version}-linux-arm64.tar.gz"
-      sha256 "6303177a6927d90e2331a90e33dcbb15ab6062e39f1358430eec2a44caa9fbbe" # linux-arm64
+      sha256 "41759b8a40539885da4a7cc6d0f5abb4b9e6c5b2f31ff50d25a997515a683f30" # linux-arm64
     end
     on_intel do
       url "https://github.com/thinkmorestupidless/ankka/releases/download/v#{version}/ankka-cli-#{version}-linux-x64.tar.gz"
-      sha256 "dae71765c2e8501880684336ea913f31e8d2f8e0509f530c9a623c1bdd60eb5a" # linux-x64
+      sha256 "38d3bbcbde5482fd5fdea4e8a4f19d481437a21a4cd9db71c5059efcdf5eb061" # linux-x64
     end
   end
 
